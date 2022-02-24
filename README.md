@@ -20,3 +20,7 @@ python main.py -m test -song your_song.mp3
 This will load the file, process it and run it through the model. For testing on multiple song, put them all in a folder and run:
 python main.py -m test -folder your_folder
 
+Results
+
+Accuracy of the model is 82%, however it works best with old songs (before 2000) since the dataset used to train it was created around this time. Since music has evolved, it will make more mistakes on modern songs.
+
