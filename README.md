@@ -11,3 +11,11 @@ Dataset - GTZAN Dataset (Music Folder)
 Train - To train the model you can run the following command: python main.py -m train
 
 This will load the audio files, format it and train the model
+
+Test - Start with a rained model to test, put the   model and audio file in the root folder and run the following command: python main.py -m test -song your_song.mp3
+
+
+This will load the file, process it and run it through the model. If you want to make this test for multiple song, put them all in a folder and run:
+
+python main.py -m test -folder your_folder
+
