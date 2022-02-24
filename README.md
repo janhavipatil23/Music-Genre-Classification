@@ -6,8 +6,12 @@ The algorithm split up the input songs into 3s slices. The melspectrogram of eve
 
 Accuracy is around 80% at the moment
 
-Dataset
+Dataset - GTZAN Dataset (Music Folder)
 
-Download the GTZAN dataset here and extract it in a musics folder.
+Train
 
-You can also get already formatted data for the CNN and the trained model here, and simply extract the files.
+To train the model you can run the following command:
+
+python main.py -m train
+
+This will load the audio files, format it and train the model
